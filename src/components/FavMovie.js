@@ -1,8 +1,8 @@
 
-import { DELETE_MOVIE,deletemovie } from "../action";
+import { deletemovie } from "../action";
 
-import { useDispatch, useSelector } from "react-redux";
-import { movies } from "../movies";
+import { useDispatch } from "react-redux";
+
 export default function FavMovie({ title, id }) {
 
   const dispatch = useDispatch();
